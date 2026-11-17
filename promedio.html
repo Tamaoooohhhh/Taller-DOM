@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <script src="js/tema.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/promedio.svg" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 3: Promedio de notas</title>
+</head>
+<body>
+
+  <a href="index.html">&larr; Volver al inicio</a>
+
+  <h1>Ejercicio 3: Calcular el promedio de 3 notas</h1>
+
+  <h2>Descripción del ejercicio</h2>
+  <p>
+    Se pide calcular el promedio de 3 notas ingresadas por el usuario y
+    mostrar el resultado en el input de resultado.
+  </p>
+
+  <form>
+    <label for="nota1">Nota 1:</label>
+    <input id="nota1" type="number" step="0.1" placeholder="Nota 1">
+
+    <label for="nota2">Nota 2:</label>
+    <input id="nota2" type="number" step="0.1" placeholder="Nota 2">
+
+    <label for="nota3">Nota 3:</label>
+    <input id="nota3" type="number" step="0.1" placeholder="Nota 3">
+
+    <button onclick="calcular()" type="button">Calcular promedio</button>
+
+    <label for="promedio">Promedio:</label>
+    <input id="promedio" type="text" placeholder="Promedio" readonly>
+  </form>
+  <script src="js/promedio.js"></script>
+
+</body>
+</html>

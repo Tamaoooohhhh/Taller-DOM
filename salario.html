@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <script src="js/tema.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/salario.svg" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 4: Salario de empleado</title>
+
+</head>
+<body>
+
+  <a href="index.html">&larr; Volver al inicio</a>
+
+  <h1>Ejercicio 4: Calcular el salario de un empleado</h1>
+
+  <h2>Descripción del ejercicio</h2>
+  <p>
+    Se pide calcular el salario de un empleado a partir de las horas
+    trabajadas y el valor de la hora, mostrando el resultado en el input
+    de resultado.
+  </p>
+
+  <form>
+    <label for="horas">Horas trabajadas:</label>
+    <input type="number" placeholder="Horas trabajadas" id="horas">
+
+    <label for="valor">Valor por hora:</label>
+    <input type="number" placeholder="Valor por hora" id="valor">
+
+    <button type="button" onclick="calcular()">Calcular salario</button>
+
+    <label for="resultado">Salario a pagar:</label>
+    <input type="text" placeholder="Salario a pagar" readonly id="resultado">
+  </form>
+  <script src="js/salario.js"></script>
+
+</body>
+</html>
